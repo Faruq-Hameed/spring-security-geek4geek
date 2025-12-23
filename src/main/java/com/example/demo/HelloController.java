@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String hello() {
-        return "Wellcome! You are successfully allowed!";
+        return "Wellcome User! You are successfully allowed!";
     }
 }
